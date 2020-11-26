@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="contents">
+            <h1>Sign Up</h1>
+            <form>
+                <input class="inputField" type="text" placeholder="Username" required>
+                <input class="inputField" type="email" placeholder="Email" required>
+                <div class="pass">
+                    <input id="pass1" class="passField" type="password" placeholder="Password" required>
+                    <img id="showPass1" src="https://img.icons8.com/material-rounded/24/000000/visible.png" onclick="showPassword(this.id, 'pass1')"/>
+                </div>                
+
+                <div class="pass">
+                    <input id="pass2" class="passField" type="password" placeholder="Confirm password" required>
+                    <img id="showPass2" src="https://img.icons8.com/material-rounded/24/000000/visible.png" onclick="showPassword(this.id, 'pass2')"/>
+                </div>
+
+                <input class="inputField" type="submit" value="Join now">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

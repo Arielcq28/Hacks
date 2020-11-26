@@ -1,0 +1,63 @@
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#navWrapper ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#navWrapper ul li{
+    margin: 0 35px;
+}
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+}
+
+#cardImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: gray;
+    width: 300px;
+    height: 150px;
+}
+
+#contentDetails form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#cardForm > input{
+    width: 50%;
+}
+
+#others > input{
+    width: 50px;
+}
+
+#cardForm > label{
+    display: inline;
+}

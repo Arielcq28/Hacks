@@ -1,0 +1,5 @@
+{
+    "title": "Welcome <b> {{ name }} </b>",
+    "actual": "Actual Language: ",
+    "changeLanguageBtn": "Change language"
+}

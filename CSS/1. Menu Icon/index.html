@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+        console.log('HERE')
+
+        function animation() {
+            $('.menu-icon').toggleClass('active');
+            $('.menu-icon').find('div').removeClass('no-animation');
+            console.log('CLICK');
+        };
+        
+    </script>
+</head>
+<body>
+
+    <div class="frame">
+        <div class="center">
+            <div class="menu-icon" onclick="animation()">
+                <div class="line-1 no-animation"></div>
+                <div class="line-2 no-animation"></div>
+                <div class="line-3 no-animation"></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
