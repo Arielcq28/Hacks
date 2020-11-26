@@ -1,0 +1,36 @@
+.app{
+  display: flex;
+  flex-direction: row;
+  min-height: 100VH;
+  width: 90%;
+  margin: auto;
+}
+
+.left-side{
+  width: 50%;
+  padding-top: 30VH;
+}
+
+.right-side{
+  width: 50%;
+}
+
+.paragraphs{
+  opacity: 0.5;
+}
+
+img{
+  width: 700px;
+}
+
+.red-section{
+  min-height: 100VH;
+  background-color: #e74c3c;
+}
+
+h2{
+  font-size: 48px;
+  color: white;
+  position: absolute;
+  top: 175VH;
+}
